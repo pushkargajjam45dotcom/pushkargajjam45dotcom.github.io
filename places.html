@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places to Visit | Solapur</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #FF9933;
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,43 +38,43 @@
     </header>
 
     <main>
-        <div class="card">
+        <section class="card">
             <h2>Siddheshwar Temple</h2>
+            <p>Siddheshwar Temple is one of the most important spiritual landmarks in Solapur[cite: 15]. Dedicated to Lord Siddheshwar, a form of Lord Shiva, it is located near the peaceful Siddheshwar Lake in the center of the city[cite: 16]. It becomes especially crowded during the Siddheshwar Yatra festival every January[cite: 17].</p>
             <div class="image-gallery">
-                <img src="images/siddeshwar.jpg" alt="Siddheshwar Temple Day View" class="place-img">
-                <img src="images/siddeshwar_night.jpg" alt="Siddheshwar Temple Night View" class="place-img">
+                <img src="images/siddeshwar.jpg" alt="Siddheshwar Temple">
+                <img src="images/siddeshwar_night.jpg" alt="Siddheshwar Temple at Night">
             </div>
-            <p>Dedicated to Lord Siddheshwar, a form of Lord Shiva, the temple is located near the peaceful Siddheshwar Lake in the center of the city[cite: 15, 16]. Thousands of devotees visit daily, especially during the Siddheshwar Yatra festival held every year in January[cite: 17].</p>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <h2>Pandharpur</h2>
+            <p>Located about 70 km from Solapur, Pandharpur is one of the most sacred pilgrimage towns in Maharashtra[cite: 19]. It is famous for the Vitthal Rukmini Temple dedicated to Lord Vitthal[cite: 20]. Millions of devotees participate in the Wari pilgrimage during the Ashadhi and Kartiki Ekadashi festivals[cite: 21].</p>
             <div class="image-gallery">
-                <img src="images/pandharpur1.jpg" alt="Pandharpur Temple View 1" class="place-img">
-                <img src="images/pandharpur2.jpg" alt="Pandharpur Temple View 2" class="place-img">
+                <img src="images/pandharpur1.jpg" alt="Pandharpur Temple View 1">
+                <img src="images/pandharpur2.jpg" alt="Pandharpur Temple View 2">
             </div>
-            <p>Located about 70 km from Solapur, Pandharpur is famous for the Vitthal Rukmini Temple dedicated to Lord Vitthal[cite: 19, 20]. It is a major spiritual center during the Ashadhi and Kartiki Ekadashi festivals[cite: 21].</p>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <h2>Tuljapur Pilgrimage</h2>
+            <p>Solapur serves as a gateway to several nearby pilgrimage destinations that attract millions of devotees every year[cite: 7, 11]. These destinations are easily accessible by road from the city[cite: 72].</p>
             <div class="image-gallery">
-                <img src="images/tuljapur1.jpg" alt="Tuljapur Temple 1" class="place-img">
-                <img src="images/tuljapur2.jpg" alt="Tuljapur Temple 2" class="place-img">
-                <img src="images/tuljapur3.jpg" alt="Tuljapur Temple 3" class="place-img">
+                <img src="images/tuljapur1.jpg" alt="Tuljapur Temple Exterior">
+                <img src="images/tuljapur2.jpg" alt="Tuljapur Temple Shrine">
+                <img src="images/tuljapur3.jpg" alt="Tuljapur Temple Devotees">
             </div>
-            <p>Solapur serves as a vital gateway to nearby pilgrimage destinations. These spiritual sites attract millions of devotees every year seeking blessings and cultural connection[cite: 7].</p>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <h2>Akkalkot</h2>
-            <p>Located about 40 km from Solapur, it is famous for the temple of Shri Swami Samarth Maharaj[cite: 23, 24]. The temple atmosphere is calm and peaceful, attracting visitors from all over the country[cite: 26].</p>
-        </div>
+            <p>Located about 40 km from Solapur, Akkalkot is famous for the temple of Shri Swami Samarth Maharaj[cite: 23, 24]. The temple atmosphere is calm and peaceful, attracting visitors from all over the country[cite: 26].</p>
+        </section>
 
-        <div class="card">
-            <h2>Solapur Fort (Bhuikot Fort)</h2>
-            <p>Built during the Bahmani Sultanate period, this historic monument reflects the military architecture of medieval India and the rich heritage of Solapur[cite: 27, 28, 29, 30].</p>
-        </div>
+        <section class="card">
+            <h2>Solapur Fort</h2>
+            <p>Also called Bhuikot Fort, this historic monument was built during the Bahmani Sultanate period[cite: 28, 29]. The structure reflects the military architecture of medieval India and represents the rich historical heritage of Solapur[cite: 30].</p>
+        </section>
     </main>
 
     <footer>
